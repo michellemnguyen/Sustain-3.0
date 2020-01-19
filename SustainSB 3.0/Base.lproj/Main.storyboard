@@ -27,18 +27,6 @@
                                     <segue destination="5Vx-Cf-4kx" kind="show" id="pOa-uD-QPv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJd-aU-SeB">
-                                <rect key="frame" x="65" y="160" width="83" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="DRINK">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="tAw-DU-e33" kind="show" id="fdX-tG-3WR"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GfC-Iu-O4d">
                                 <rect key="frame" x="65" y="214" width="50" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,6 +37,18 @@
                                 </state>
                                 <connections>
                                     <segue destination="Wkc-ac-D9v" kind="show" id="Rnm-2D-PFJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCM-i9-bmX">
+                                <rect key="frame" x="53" y="374" width="114" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="LEARN">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AYt-7W-UsF" kind="show" id="5bM-3n-lB9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bvK-jw-TI8">
@@ -63,6 +63,35 @@
                                     <segue destination="YEf-Ug-0TF" kind="show" id="smy-wZ-ERf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8I-f7-2gm">
+                                <rect key="frame" x="65" y="328" width="121" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="RECYCLE">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rWp-nc-o6q" kind="show" id="MYl-lp-hNu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJd-aU-SeB">
+                                <rect key="frame" x="65" y="160" width="83" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="DRINK">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tAw-DU-e33" kind="show" id="fdX-tG-3WR"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="learn" translatesAutoresizingMaskIntoConstraints="NO" id="ah3-TX-O6h">
+                                <rect key="frame" x="20" y="385" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eat" translatesAutoresizingMaskIntoConstraints="NO" id="83M-vY-jOV">
                                 <rect key="frame" x="20" y="113" width="32" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -88,23 +117,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H8I-f7-2gm">
-                                <rect key="frame" x="65" y="328" width="121" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
-                                <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <state key="normal" title="RECYCLE">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="rWp-nc-o6q" kind="show" id="MYl-lp-hNu"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M0k-fP-wHK">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change affects us all. Our app helps you make more sustainable lifestyle choices." lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNz-Kl-hxH">
-                                        <rect key="frame" x="43" y="166" width="329" height="218"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate change is real &amp; affects us all. Let us help you make more sustainable lifestyle choices." lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNz-Kl-hxH">
+                                        <rect key="frame" x="43" y="235" width="333" height="257"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                         <nil key="textColor"/>
@@ -118,6 +135,11 @@
                                             <color key="titleColor" red="0.41328226278898988" green="0.74477817357512954" blue="0.52916425704786352" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                     </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sustainability" translatesAutoresizingMaskIntoConstraints="NO" id="auf-wq-hrq">
+                                        <rect key="frame" x="78" y="99" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" red="0.41328226280000002" green="0.74477817359999998" blue="0.52916425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
@@ -180,7 +202,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpM-je-Kcw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-826" y="846"/>
+            <point key="canvasLocation" x="-1887" y="846"/>
         </scene>
         <!--EAT-->
         <scene sceneID="5Au-Du-saU">
@@ -228,14 +250,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OFf-L5-PGj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76.811594202898561" y="846.42857142857144"/>
+            <point key="canvasLocation" x="-823" y="846"/>
         </scene>
         <!--Buddha Bowls View Controller-->
         <scene sceneID="dAc-zX-OGu">
             <objects>
                 <viewController id="KOI-jU-YjB" customClass="BuddhaBowlsViewController" customModule="SustainSB_3_0" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fW7-Ds-fm8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bb1" translatesAutoresizingMaskIntoConstraints="NO" id="3Sm-1n-T9Q">
@@ -265,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hc3-uh-ILf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76.811594202898561" y="1564.9553571428571"/>
+            <point key="canvasLocation" x="-74" y="846"/>
         </scene>
         <!--DRINK-->
         <scene sceneID="WBw-PA-6BV">
@@ -307,7 +329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uel-L9-bvI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="845.75892857142856"/>
+            <point key="canvasLocation" x="696" y="846"/>
         </scene>
         <!--SEE-->
         <scene sceneID="afW-5X-fjK">
@@ -361,7 +383,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pow-7R-ora" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2024.6376811594205" y="845.75892857142856"/>
+            <point key="canvasLocation" x="1470" y="846"/>
         </scene>
         <!--STUDY-->
         <scene sceneID="9ZP-OK-anP">
@@ -416,7 +438,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8N-w2-dzQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2918.840579710145" y="845.75892857142856"/>
+            <point key="canvasLocation" x="2217" y="846"/>
         </scene>
         <!--RECYCLE-->
         <scene sceneID="dkz-pk-MrR">
@@ -432,10 +454,176 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="giW-MJ-ulO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3874" y="846"/>
+            <point key="canvasLocation" x="2912" y="846"/>
+        </scene>
+        <!--LEARN-->
+        <scene sceneID="jfS-B4-0nC">
+            <objects>
+                <viewController id="AYt-7W-UsF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="24N-ir-Q1q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mJQ-5G-dAd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2YC-K0-XdJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Items Accepted in the Trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7cv-NJ-lRB">
+                                                <rect key="frame" x="26" y="453" width="273" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                                <color key="textColor" red="0.41328226280000002" green="0.74477817359999998" blue="0.52916425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept1" translatesAutoresizingMaskIntoConstraints="NO" id="gr0-4y-pd1">
+                                                <rect key="frame" x="26" y="497" width="184" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept2" translatesAutoresizingMaskIntoConstraints="NO" id="KBm-fK-mPD">
+                                                <rect key="frame" x="208" y="497" width="189" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Items Not Accepted in the Trash" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSP-pe-39g">
+                                                <rect key="frame" x="26" y="703" width="318" height="29"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept3" translatesAutoresizingMaskIntoConstraints="NO" id="5RE-FP-rRq">
+                                                <rect key="frame" x="26" y="559" width="189" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept4" translatesAutoresizingMaskIntoConstraints="NO" id="OSh-ml-YN1">
+                                                <rect key="frame" x="182" y="559" width="240" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept5" translatesAutoresizingMaskIntoConstraints="NO" id="iu8-PM-n4t">
+                                                <rect key="frame" x="0.0" y="627" width="240" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="accept6" translatesAutoresizingMaskIntoConstraints="NO" id="fbz-G0-6Ea">
+                                                <rect key="frame" x="182" y="627" width="240" height="54"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rule1" translatesAutoresizingMaskIntoConstraints="NO" id="HFs-HU-3gg">
+                                                <rect key="frame" x="204" y="224" width="188" height="204"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rule3" translatesAutoresizingMaskIntoConstraints="NO" id="pSl-oS-11F">
+                                                <rect key="frame" x="8" y="237" width="188" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rule2" translatesAutoresizingMaskIntoConstraints="NO" id="nhh-au-pPC">
+                                                <rect key="frame" x="199" y="30" width="198" height="212"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 Rules to  Recyling  Right" lineBreakMode="wordWrap" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yF-GV-GZd">
+                                                <rect key="frame" x="26" y="22" width="153" height="199"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                                                <color key="textColor" red="0.41328226280000002" green="0.74477817359999998" blue="0.52916425700000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="0TN-J0-edi"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2YC-K0-XdJ" firstAttribute="leading" secondItem="PFw-7B-uiL" secondAttribute="leading" id="6AZ-dr-OCr"/>
+                                    <constraint firstItem="2YC-K0-XdJ" firstAttribute="width" secondItem="mJQ-5G-dAd" secondAttribute="width" id="V1h-Y3-bw2"/>
+                                    <constraint firstItem="2YC-K0-XdJ" firstAttribute="trailing" secondItem="PFw-7B-uiL" secondAttribute="trailing" id="jgm-Ah-7HH"/>
+                                    <constraint firstItem="2YC-K0-XdJ" firstAttribute="bottom" secondItem="PFw-7B-uiL" secondAttribute="bottom" id="pgm-QX-hFO"/>
+                                    <constraint firstItem="2YC-K0-XdJ" firstAttribute="top" secondItem="PFw-7B-uiL" secondAttribute="top" id="ueD-8S-0O7"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="HaJ-lU-5gw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="PFw-7B-uiL"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no1" translatesAutoresizingMaskIntoConstraints="NO" id="iHn-hh-1lT">
+                                <rect key="frame" x="22" y="835" width="184" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no2" translatesAutoresizingMaskIntoConstraints="NO" id="bYv-sT-KjV">
+                                <rect key="frame" x="204" y="835" width="189" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no3" translatesAutoresizingMaskIntoConstraints="NO" id="9WP-EQ-eBs">
+                                <rect key="frame" x="22" y="897" width="189" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no4" translatesAutoresizingMaskIntoConstraints="NO" id="6Rs-Y3-nrb">
+                                <rect key="frame" x="178" y="897" width="240" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no6" translatesAutoresizingMaskIntoConstraints="NO" id="iFx-Ga-ukh">
+                                <rect key="frame" x="0.0" y="965" width="240" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="no5" translatesAutoresizingMaskIntoConstraints="NO" id="oQw-q2-GTj">
+                                <rect key="frame" x="178" y="959" width="240" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Requires Special Disposal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aj5-Hd-eB4">
+                                <rect key="frame" x="22" y="1041" width="256" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ugh" translatesAutoresizingMaskIntoConstraints="NO" id="0NB-fy-F6T">
+                                <rect key="frame" x="20" y="1087" width="202" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ugh3" translatesAutoresizingMaskIntoConstraints="NO" id="BGF-pZ-i9e">
+                                <rect key="frame" x="204" y="1087" width="202" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2gR-GQ-SLx">
+                                <rect key="frame" x="108" y="1172" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redoScreen Shot 2020-01-19 at 8.44.21 AM" translatesAutoresizingMaskIntoConstraints="NO" id="2U9-MA-1HI">
+                                <rect key="frame" x="15" y="1157" width="202" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redoScreen Shot 2020-01-19 at 8.44.09 AM" translatesAutoresizingMaskIntoConstraints="NO" id="7Gc-vK-cxO">
+                                <rect key="frame" x="204" y="1157" width="202" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="redoScreen Shot 2020-01-19 at 8.44.36 AM" translatesAutoresizingMaskIntoConstraints="NO" id="Gse-Jw-rGJ">
+                                <rect key="frame" x="117" y="1228" width="209" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mJQ-5G-dAd" secondAttribute="bottom" id="1AR-Xw-6XJ"/>
+                            <constraint firstItem="mJQ-5G-dAd" firstAttribute="leading" secondItem="8M2-2D-U9A" secondAttribute="leading" id="5Bp-vv-jxS"/>
+                            <constraint firstItem="mJQ-5G-dAd" firstAttribute="trailing" secondItem="8M2-2D-U9A" secondAttribute="trailing" id="5eY-fi-g7T"/>
+                            <constraint firstItem="mJQ-5G-dAd" firstAttribute="top" secondItem="8M2-2D-U9A" secondAttribute="top" id="6i1-es-kkV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8M2-2D-U9A"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="LEARN" id="4bs-cU-3Yx"/>
+                    <size key="freeformSize" width="414" height="1300"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYk-n5-vdB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3634.7826086956525" y="845.75892857142856"/>
         </scene>
     </scenes>
     <resources>
+        <image name="accept1" width="910" height="258"/>
+        <image name="accept2" width="908" height="256"/>
+        <image name="accept3" width="910" height="260"/>
+        <image name="accept4" width="916" height="262"/>
+        <image name="accept5" width="910" height="262"/>
+        <image name="accept6" width="910" height="252"/>
         <image name="bb1" width="1000" height="809"/>
         <image name="buddhabowls" width="1000" height="666"/>
         <image name="butterfly beach" width="1000" height="674"/>
@@ -443,19 +631,35 @@
         <image name="davidson" width="1200" height="900"/>
         <image name="drink" width="32" height="32"/>
         <image name="eat" width="32" height="32"/>
+        <image name="learn" width="32" height="32"/>
         <image name="menu" width="34" height="32"/>
         <image name="moderntimes" width="1000" height="523"/>
+        <image name="no1" width="588" height="168"/>
+        <image name="no2" width="584" height="170"/>
+        <image name="no3" width="584" height="168"/>
+        <image name="no4" width="580" height="168"/>
+        <image name="no5" width="582" height="168"/>
+        <image name="no6" width="574" height="162"/>
         <image name="recycle" width="512" height="512"/>
+        <image name="redoScreen Shot 2020-01-19 at 8.44.09 AM" width="572" height="162"/>
+        <image name="redoScreen Shot 2020-01-19 at 8.44.21 AM" width="578" height="164"/>
+        <image name="redoScreen Shot 2020-01-19 at 8.44.36 AM" width="580" height="164"/>
+        <image name="rule1" width="690" height="774"/>
+        <image name="rule2" width="692" height="776"/>
+        <image name="rule3" width="692" height="782"/>
         <image name="sb public lib" width="2048" height="1377"/>
         <image name="sbcc" width="850" height="567"/>
         <image name="silvergreens" width="750" height="1000"/>
         <image name="sternswharf" width="800" height="526"/>
         <image name="study" width="32" height="32"/>
+        <image name="sustainability" width="512" height="512"/>
+        <image name="ugh" width="582" height="168"/>
+        <image name="ugh3" width="584" height="168"/>
         <image name="water" width="32" height="32"/>
         <image name="winetherapy" width="750" height="1000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="NgA-PH-dh4"/>
+        <segue reference="pOa-uD-QPv"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
 </document>
