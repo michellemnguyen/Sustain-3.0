@@ -16,6 +16,7 @@
 		F90CEE0623D46A5D00D65893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90CEE0423D46A5D00D65893 /* LaunchScreen.storyboard */; };
 		F90CEE1123D4877200D65893 /* RecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90CEE1023D4877200D65893 /* RecycleViewController.swift */; };
 		F90CEE1423D48FB100D65893 /* EatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90CEE1323D48FB100D65893 /* EatViewController.swift */; };
+		F9B4FC5323D4DBDA006C2A32 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B4FC5223D4DBDA006C2A32 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F90CEE0723D46A5D00D65893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F90CEE1023D4877200D65893 /* RecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecycleViewController.swift; sourceTree = "<group>"; };
 		F90CEE1323D48FB100D65893 /* EatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatViewController.swift; sourceTree = "<group>"; };
+		F9B4FC5223D4DBDA006C2A32 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				F90CEE0223D46A5D00D65893 /* Assets.xcassets */,
 				F90CEE0423D46A5D00D65893 /* LaunchScreen.storyboard */,
 				F90CEE0723D46A5D00D65893 /* Info.plist */,
+				F9B4FC5223D4DBDA006C2A32 /* ScrollViewController.swift */,
 			);
 			path = "SustainSB 3.0";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F90CEE1123D4877200D65893 /* RecycleViewController.swift in Sources */,
+				F9B4FC5323D4DBDA006C2A32 /* ScrollViewController.swift in Sources */,
 				F90CEE1423D48FB100D65893 /* EatViewController.swift in Sources */,
 				F90CEDFE23D46A5A00D65893 /* ViewController.swift in Sources */,
 				F90CEDFA23D46A5A00D65893 /* AppDelegate.swift in Sources */,
